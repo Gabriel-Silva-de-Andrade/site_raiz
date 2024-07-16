@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+    --blue-main: #3D95A4;
+    --blue-hover: #005361;
+    --back: #000000;
+    --grey-dark-backgroud: #D9D9D9;
+    --grey-light: #E6E6E6;
+    --white: #FFFFFF;
+    --Medium: 500;
+    --Bold: 700;
+    --SemiBold: 600;
+    --ExtraBold: 800;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.body {
+    background-color: var(--grey-light);
+}
+.header {
+    padding: 16px 5.8%;
+    background-color: var(--white);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 80px;
+    height: 73px;
+}
+.box_Menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.menu {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--Bold);
+    font-style: normal;
+    color: var(--blue-main);
+}
+.Dropdown, .Dropdown_content {
+    display: none;
+}
+.menu:hover {
+    color: var(--blue-hover);
+}
+/*-----------------Apresentação da página-----------------*/
+.main {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(61,149,164);
+    background: linear-gradient(49deg, rgba(61,149,164,1) 0%, rgba(115,178,189,1) 80%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    height: auto;
+    padding: 175px 120px 100px 120px;
+}
+.box_presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.title_main {
+    font-size: 3.12rem;
+    font-weight: var(--ExtraBold);
+}
+.caption_main {
+    font-size: 20px;
+    font-weight: var(--Medium);
+}
+.image_presentation {
+    width: 420px;
+    height: 320px;
+}
+/*-----------------Revivendo Brincadeiras de Antigamente-----------------*/
+.caixa_utilizavel {
+    padding: 0 5.8%;
+}
+.main_content {
+    padding-top: 200px;
+}
+.title_pagina {
+    text-align: center;
+    color: var(--blue-main);
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    margin-bottom: 100px;
+}
+.presentation_site {
+    margin-bottom: 100px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    padding: 30px 0;
+}
+.image_card {
+    width: 231px;
+    height: 180px;
+}
+.content_brincadeiras_antigas {
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.title_card {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--back);
+}
+.text_card {
+    color: var(--back);
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--SemiBold);
+    color: var(--back);
+}
+/*Card - o que é brincadeiras raízes*/
+.card_e_brincadeira_raiz {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+.cards_tipo_3 {
+    padding: 30px;
+    background-color: var(--grey-dark-backgroud);
+}
+#largura_1 {
+    width: 775px;
+}
+.header_card_tipo_3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 33px;
+    margin-bottom: 50px;
+}
+.icon_card_tipo_3 {
+    width: 69px;
+    height: 69px;
+}
+.title_card_tipo_3 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--back);
+}
+.img_bambole {
+    width: 156px;
+    height: 235px;
+}
+
+/*Card - diversas brincadeiras raízes*/
+
+.caixa_brincadeiras {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.titulos_pagina {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--blue-main);
+    margin-bottom: 100px;
+}
+.caixa_cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+#espacamento_card {
+    margin-top: 70px;
+}
+.card_brincadeiras {
+    width: 310px;
+    height: 205px;
+    padding: 20px;
+    background-color: var(--grey-dark-backgroud);
+    text-decoration: none;
+}
+.card_brincadeiras:hover {
+    outline: 3.5px solid var(--blue-main);
+}
+.heade_card_birncadeiras {
+    display: flex;
+    gap: 14px;
+}
+.icon_card_birncadeiras {
+    width: 73px;
+    height: 73px;
+}
+.title_card_birncadeiras {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--back);
+}
+.text_card_birncadeiras {
+    padding-top: 30px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Medium);
+    color: var(--back);
+}
+.espacador {
+    border: 3px dashed var(--blue-main);
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+/*Card - Por Que Resgatar Essas Brincadeiras?*/
+
+.caixa_resgatar_cultura {
+    margin-bottom: 150px;
+    text-align: center;
+}
+.secao_resgatar_cultura {
+    display: flex;
+    justify-content: center;
+    gap: 235px;
+}
+.conteudo_resgatar_cultura {
+    width: 273px;
+}
+.icon_secao_resgatar {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 28px;
+}
+.titulo_secao {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--back);
+}
+.text_secao_resgatar {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Medium);
+    color: var(--back);
+}
+#separador_secao {
+    margin-top: 80px;
+}
+.caixa_nossa_missao {
+    width: 100%;
+    padding: 60px 110px;
+    background-color: var(--grey-dark-backgroud);
+    position: relative;
+}
+.title_nossa_missao {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--back);
+}
+.icon_nossa_missao {
+    width: 70px;    
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    right: 62px;
+    top: 72px;
+}
+.text_nossa_missao {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Medium);
+    color: var(--back);
+}
+/*-------Espaço Maker------*/
+.caixa_espaco_maker {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.container_faca_vc_mesmo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+#largura_2 {
+    width: 643px;
+}
+.image_lavrandro_madeira {
+    width: 280px;
+    height: 280px;
+}
+.contenier_crie_brinquedos {
+    margin-top: 100px;
+}
+.container_onde_ir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-inline: 7%;
+}
+.subtitulo_onde_ir {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--SemiBold);
+    color: var(--back);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue-main);
+    padding-inline: 120px;
+    padding-block: 50px;
+}
+.caixa_conteudo_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 375px;
+}
+.title_footer {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Bold);
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.link_footer {
+    color: var(--white)
+}
+.link_footer:hover {
+    color: var(--back);
+}
+.text_footer {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: var(--Medium);
+    color: var(--white);
+}
+.caixa_conteudo_sobre_footer {
+    width: 375px;
+}
+
+@media(max-width: 1250px) {
+    .box_Menu {
+        display: none;
+    }
+    .Dropdown {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+    }
+    .Dropdown_content {
+        display: none;
+        flex-direction: column;
+        background-color: var(--white);
+        position: absolute;
+        z-index: 1;
+        top: 88px;
+        right: 0px;
+        min-width: 30%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .Dropdown:hover .Dropdown_content {
+        display: flex;
+    }
+    .botton_menu {
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: var(--SemiBold);
+        color: var(--blue-main);
+        text-decoration: none;
+        padding: 15px;
+    }
+    .botton_menu:hover {
+        background-color: var(--grey-light);
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .box_presentation {
+        width: auto;
+    }
+    .image_presentation {
+        width: 80%;
+        height: 90%;    
+    }
+    .card_content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_e_brincadeira_raiz {
+        flex-direction: column;
+        align-items: center;
+    }
+    #largura_1 {
+        width: auto;
+    }
+    .header_card_tipo_3 {
+        gap: 10px;
+    }
+    .caixa_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .secao_resgatar_cultura {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+    .caixa_nossa_missao {
+        padding: 60px 8%;
+    }
+    .icon_nossa_missao {
+        right: 20px;
+        top: 100px;
+    }
+    .text_nossa_missao {
+        margin-top: 80px;
+    }
+    .container_faca_vc_mesmo {
+        flex-direction: column;
+        align-items: center;
+    }
+    #largura_2 {
+        width: auto;
+    }
+    .footer {
+        flex-direction: column;
+        padding-inline: 5.8%;
+    }
+    .caixa_conteudo_footer {
+        width: auto;
+    }
+    .caixa_conteudo_sobre_footer {
+        margin-top: 30px;
+        width: auto;
+    }
+}
